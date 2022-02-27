@@ -2,9 +2,9 @@
 
 defined( 'ABSPATH' ) || exit;
 
-class TF_Talk {
+class DMSTalkForm {
 
-    public function tf_talk_zap(){
+    public function send_msg_zap(){
         $api = "https://api.whatsapp.com/send?phone=5519999847031&text";
         
     }
